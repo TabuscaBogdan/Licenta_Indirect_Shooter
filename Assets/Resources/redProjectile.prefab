@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 23684866260708018}
   - component: {fileID: 54531427441279438}
   - component: {fileID: 82463903937942184}
-  - component: {fileID: 114698087305399214}
+  - component: {fileID: 114167959140608668}
   m_Layer: 0
   m_Name: redProjectile
   m_TagString: Untagged
@@ -179,7 +179,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114698087305399214
+--- !u!114 &114167959140608668
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -187,10 +187,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1196068747394420}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7465f0c8de0352440adb1bd041851af4, type: 3}
+  m_Script: {fileID: 11500000, guid: c514063176540f34d9e8c4f5d4e32d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sounds: []
+  team: 3
+  playerName: Timmy
 --- !u!135 &135582576153349150
 SphereCollider:
   m_ObjectHideFlags: 1
