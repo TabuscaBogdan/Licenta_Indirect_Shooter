@@ -38,7 +38,7 @@ public class Shooter : MonoBehaviour {
 
             actuallProjectile.transform.position = transform.position + offset;
             Rigidbody rb = actuallProjectile.GetComponent<Rigidbody>();
-            rb.AddForce(movement*projSpeed);
+            //rb.AddForce(movement*projSpeed);
             cooldown = 60;
         }
         if(cooldown>0)

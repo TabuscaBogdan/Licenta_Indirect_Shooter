@@ -4,32 +4,45 @@ using UnityEngine;
 public class Red_behavior : OnHit {
 
     // Update is called once per frame
-    private Vector3 curbe;
+    private Vector3 position;
+    private Vector3 start_point;
     private int lifetime;
     private float rads;
-    void spiral(ref Vector3 curb,ref float rads)
+    public float x,z;
+    private float pas=0.00001f;
+    private float raza=0.1f;
+   
+    void spiral(ref float raza, ref float pas,ref Vector3 psition)
     {
-        if (lifetime % 2 == 0)
-        {
-            if (rads >= 6.2f)
+        
+            
+            pas +=1.0f;
+            if (pas == 360.0f)
             {
-                rads = 0.0f;
+                pas = 0.0f;
             }
-            rads = rads + 0.1f;
-            curb.Set(-Mathf.Cos(rads), 0.0f, -Mathf.Sin(rads));
-            curb = curb * 5;
-        }
+            raza += 0.0002f + (0.0002f)*pas;
+            x = raza * Mathf.Cos(Mathf.PI/180*pas)+start_point.x;
+            z = raza * Mathf.Sin(Mathf.PI / 180 * pas)+start_point.z;
+            
+            position.Set(x, start_point.y, z);
+
+    }
+    private void Start()
+    {
+        start_point = transform.position;
     }
     Red_behavior()
     {
         rads = 0.0f;
-        lifetime = 300;
+        lifetime = 3000;
         this.damage = 10;
-        curbe = new Vector3(0.0f, 0.0f, 0.0f);
+        x = 0.1f;
+        z = 0.1f;
     }
 	void Update () {
-        spiral(ref curbe,ref rads);
-        RdBody.AddForce(curbe);
+        spiral(ref raza, ref pas, ref position);
+        transform.position = position;
         lifetime--;
         if(lifetime<0)
         {

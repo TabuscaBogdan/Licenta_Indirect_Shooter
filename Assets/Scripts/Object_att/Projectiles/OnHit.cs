@@ -8,6 +8,7 @@ public class OnHit : MonoBehaviour {
     public AudioSource[] sounds;
     public int team;
     public string playerName;
+    public GameObject afterSound;
 
     protected Rigidbody RdBody;
     protected int damage;
@@ -22,14 +23,16 @@ public class OnHit : MonoBehaviour {
     // for closisions
     public void OnCollisionEnter(Collision collision)
     {
-        /*problema
-         * obiectul dispare si 
-         * sunetul nu mai are timp sa ruleze
-         * 
-         * */
-        //sounds[0].transform.parent = null;
-        //sounds[0].Play();
-        //Destroy(sounds[0].gameObject, sounds[0].clip.length);
+        try
+        {
+            GameObject hitSound = Instantiate(afterSound) as GameObject;
+            afterSound.transform.parent = null;
+        }
+        catch(UnassignedReferenceException)
+        {
+            Debug.Log("Sound Efect");
+        }
+
         try
         {
             player_stats = collision.gameObject.GetComponent<Status>();

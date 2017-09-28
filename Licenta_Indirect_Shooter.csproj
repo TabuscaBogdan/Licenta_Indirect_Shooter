@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts\Object_att\Player\BasicMovement.cs" />
     <Compile Include="Assets\Scripts\Object_att\Player\Shooter.cs" />
     <Compile Include="Assets\Scripts\Object_att\Player\Status.cs" />
+    <Compile Include="Assets\Scripts\Object_att\Projectiles\AfterSound.cs" />
     <Compile Include="Assets\Scripts\Object_att\Projectiles\OnHit.cs" />
     <Compile Include="Assets\Scripts\Object_att\Projectiles\Purple_behavior.cs" />
     <Compile Include="Assets\Scripts\Object_att\Projectiles\Red_behavior.cs" />

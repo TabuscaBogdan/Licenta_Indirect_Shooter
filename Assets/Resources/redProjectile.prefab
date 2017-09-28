@@ -40,7 +40,7 @@ Transform:
   m_GameObject: {fileID: 1196068747394420}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.9994, y: 0.3277, z: 0.22973442}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -193,6 +193,9 @@ MonoBehaviour:
   sounds: []
   team: 3
   playerName: Timmy
+  afterSound: {fileID: 1089337265258936, guid: 2b953173f22c7d348802087a3bf3fdbb, type: 2}
+  x: 0.1
+  z: 0.1
 --- !u!135 &135582576153349150
 SphereCollider:
   m_ObjectHideFlags: 1

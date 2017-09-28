@@ -124,3 +124,4 @@ MonoBehaviour:
   sounds: []
   team: 3
   playerName: Timmy
+  afterSound: {fileID: 1475816384891960, guid: 4bb3767d187133c499528fe6b8643e4e, type: 2}
