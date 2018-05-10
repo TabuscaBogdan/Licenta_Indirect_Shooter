@@ -6,7 +6,7 @@ public class Shooter : MonoBehaviour {
 
     // Use this for initialization
     public GameObject projectile;
-    public float x, y, z;
+    public float x, y=1.0f, z;
     public float projSpeed;
     private int cooldown;
     private Vector3 offset;
@@ -37,6 +37,7 @@ public class Shooter : MonoBehaviour {
             //-----
 
             actuallProjectile.transform.position = transform.position + offset;
+            Debug.Log(actuallProjectile.transform.position);
             Rigidbody rb = actuallProjectile.GetComponent<Rigidbody>();
             //rb.AddForce(movement*projSpeed);
             cooldown = 60;

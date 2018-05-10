@@ -13,7 +13,14 @@ public class OnHit : MonoBehaviour {
     protected Rigidbody RdBody;
     protected int damage;
     protected Status player_stats;
+    public Vector3 target_position;
     // Use this for initialization
+
+    public void SetGoal(Vector3 target)//for specific targets
+    {
+        target_position = target;// - transform.position;
+    }
+
     void Start () {
         RdBody = GetComponent<Rigidbody>();
         sounds = gameObject.GetComponents<AudioSource>();
@@ -33,6 +40,7 @@ public class OnHit : MonoBehaviour {
             Debug.Log("Sound Efect");
         }
 
+        //verify if friend or foe
         try
         {
             player_stats = collision.gameObject.GetComponent<Status>();
@@ -44,7 +52,7 @@ public class OnHit : MonoBehaviour {
         }
         catch (NullReferenceException ex)
         {
-            Debug.Log("No Problemo");
+            Debug.Log("Non player collision");
         }
         finally
         {

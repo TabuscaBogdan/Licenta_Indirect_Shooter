@@ -1,0 +1,1511 @@
+fileFormatVersion: 2
+guid: 0dd97a74becf27d4d9fb108ce969b827
+timeCreated: 18446744011573954816
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Body
+    100002: Cap
+    100004: Chr_Head
+    100006: Chr_Hips
+    100008: Chr_LeftArm
+    100010: Chr_LeftFoot
+    100012: Chr_LeftForeArm
+    100014: Chr_LeftHand
+    100016: Chr_LeftLeg
+    100018: Chr_LeftShoulder
+    100020: Chr_LeftToeBase
+    100022: Chr_LeftUpLeg
+    100024: Chr_Neck
+    100026: Chr_Reference
+    100028: Chr_RightArm
+    100030: Chr_RightFoot
+    100032: Chr_RightForeArm
+    100034: Chr_RightHand
+    100036: Chr_RightLeg
+    100038: Chr_RightShoulder
+    100040: Chr_RightToeBase
+    100042: Chr_RightUpLeg
+    100044: Chr_Spine
+    100046: Chr_Spine1
+    100048: Finger_Nomal
+    100050: Finger_Pa
+    100052: Finger_Shot
+    100054: H01_Front
+    100056: H02_L
+    100058: H02_R
+    100060: H03_L
+    100062: H03_R
+    100064: H04_Back
+    100066: Hair
+    100068: Head
+    100070: Pai_L
+    100072: Pai_R
+    100074: s_Back_01
+    100076: s_Front_01
+    100078: s_L_b_01
+    100080: s_L_f_01
+    100082: s_L_s_01
+    100084: s_R_b_01
+    100086: s_R_f_01
+    100088: s_R_s_01
+    100090: Skirt
+    100092: skirt_Back
+    100094: skirt_Front
+    100096: skirt_L_back
+    100098: skirt_L_front
+    100100: skirt_L_side
+    100102: skirt_R_back
+    100104: skirt_R_front
+    100106: skirt_R_side
+    100108: //RootNode
+    400000: Body
+    400002: Cap
+    400004: Chr_Head
+    400006: Chr_Hips
+    400008: Chr_LeftArm
+    400010: Chr_LeftFoot
+    400012: Chr_LeftForeArm
+    400014: Chr_LeftHand
+    400016: Chr_LeftLeg
+    400018: Chr_LeftShoulder
+    400020: Chr_LeftToeBase
+    400022: Chr_LeftUpLeg
+    400024: Chr_Neck
+    400026: Chr_Reference
+    400028: Chr_RightArm
+    400030: Chr_RightFoot
+    400032: Chr_RightForeArm
+    400034: Chr_RightHand
+    400036: Chr_RightLeg
+    400038: Chr_RightShoulder
+    400040: Chr_RightToeBase
+    400042: Chr_RightUpLeg
+    400044: Chr_Spine
+    400046: Chr_Spine1
+    400048: Finger_Nomal
+    400050: Finger_Pa
+    400052: Finger_Shot
+    400054: H01_Front
+    400056: H02_L
+    400058: H02_R
+    400060: H03_L
+    400062: H03_R
+    400064: H04_Back
+    400066: Hair
+    400068: Head
+    400070: Pai_L
+    400072: Pai_R
+    400074: s_Back_01
+    400076: s_Front_01
+    400078: s_L_b_01
+    400080: s_L_f_01
+    400082: s_L_s_01
+    400084: s_R_b_01
+    400086: s_R_f_01
+    400088: s_R_s_01
+    400090: Skirt
+    400092: skirt_Back
+    400094: skirt_Front
+    400096: skirt_L_back
+    400098: skirt_L_front
+    400100: skirt_L_side
+    400102: skirt_R_back
+    400104: skirt_R_front
+    400106: skirt_R_side
+    400108: //RootNode
+    4300000: Head
+    4300002: Hair
+    4300004: Finger_Pa
+    4300006: Finger_Nomal
+    4300008: Finger_Shot
+    4300010: Skirt
+    4300012: Cap
+    4300014: Body
+    7400000: 000_Def
+    7400002: 401_CH_Stand
+    7400004: 402_CH_Idle
+    7400006: 403_CH_Dance
+    7400008: 404_CH_Bang
+    7400010: 405_CH_Deliver
+    9500000: //RootNode
+    13700000: Body
+    13700002: Cap
+    13700004: Finger_Nomal
+    13700006: Finger_Pa
+    13700008: Finger_Shot
+    13700010: Hair
+    13700012: Head
+    13700014: Skirt
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 000_Def
+      takeName: 000_Def
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 0
+      - path: Cap
+        weight: 0
+      - path: Chr_Reference
+        weight: 1
+      - path: Chr_Reference/Chr_Hips
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg/Chr_LeftFoot
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg/Chr_LeftFoot/Chr_LeftToeBase
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg/Chr_RightFoot
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg/Chr_RightFoot/Chr_RightToeBase
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm/Chr_LeftForeArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm/Chr_LeftForeArm/Chr_LeftHand
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H01_Front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H02_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H02_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H03_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H03_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H04_Back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm/Chr_RightForeArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm/Chr_RightForeArm/Chr_RightHand
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Pai_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Pai_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Back/s_Back_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Front/s_Front_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_back/s_L_b_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_front/s_L_f_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_side
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_side/s_L_s_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_back/s_R_b_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_front/s_R_f_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_side
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_side/s_R_s_01
+        weight: 1
+      - path: Finger_Nomal
+        weight: 0
+      - path: Finger_Pa
+        weight: 0
+      - path: Finger_Shot
+        weight: 0
+      - path: Hair
+        weight: 0
+      - path: Head
+        weight: 0
+      - path: Skirt
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 401_CH_Stand
+      takeName: 401_CH_Stand
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 0
+      - path: Cap
+        weight: 0
+      - path: Chr_Reference
+        weight: 1
+      - path: Chr_Reference/Chr_Hips
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg/Chr_LeftFoot
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg/Chr_LeftFoot/Chr_LeftToeBase
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg/Chr_RightFoot
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg/Chr_RightFoot/Chr_RightToeBase
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm/Chr_LeftForeArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm/Chr_LeftForeArm/Chr_LeftHand
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H01_Front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H02_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H02_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H03_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H03_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H04_Back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm/Chr_RightForeArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm/Chr_RightForeArm/Chr_RightHand
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Pai_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Pai_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Back/s_Back_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Front/s_Front_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_back/s_L_b_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_front/s_L_f_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_side
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_side/s_L_s_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_back/s_R_b_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_front/s_R_f_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_side
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_side/s_R_s_01
+        weight: 1
+      - path: Finger_Nomal
+        weight: 0
+      - path: Finger_Pa
+        weight: 0
+      - path: Finger_Shot
+        weight: 0
+      - path: Hair
+        weight: 0
+      - path: Head
+        weight: 0
+      - path: Skirt
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 402_CH_Idle
+      takeName: 402_CH_Idle
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 0
+      - path: Cap
+        weight: 0
+      - path: Chr_Reference
+        weight: 1
+      - path: Chr_Reference/Chr_Hips
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg/Chr_LeftFoot
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg/Chr_LeftFoot/Chr_LeftToeBase
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg/Chr_RightFoot
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg/Chr_RightFoot/Chr_RightToeBase
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm/Chr_LeftForeArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm/Chr_LeftForeArm/Chr_LeftHand
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H01_Front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H02_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H02_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H03_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H03_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H04_Back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm/Chr_RightForeArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm/Chr_RightForeArm/Chr_RightHand
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Pai_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Pai_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Back/s_Back_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Front/s_Front_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_back/s_L_b_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_front/s_L_f_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_side
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_side/s_L_s_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_back/s_R_b_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_front/s_R_f_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_side
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_side/s_R_s_01
+        weight: 1
+      - path: Finger_Nomal
+        weight: 0
+      - path: Finger_Pa
+        weight: 0
+      - path: Finger_Shot
+        weight: 0
+      - path: Hair
+        weight: 0
+      - path: Head
+        weight: 0
+      - path: Skirt
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 403_CH_Dance
+      takeName: 403_CH_Dance
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 0
+      - path: Cap
+        weight: 0
+      - path: Chr_Reference
+        weight: 1
+      - path: Chr_Reference/Chr_Hips
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg/Chr_LeftFoot
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg/Chr_LeftFoot/Chr_LeftToeBase
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg/Chr_RightFoot
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg/Chr_RightFoot/Chr_RightToeBase
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm/Chr_LeftForeArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm/Chr_LeftForeArm/Chr_LeftHand
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H01_Front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H02_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H02_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H03_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H03_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H04_Back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm/Chr_RightForeArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm/Chr_RightForeArm/Chr_RightHand
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Pai_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Pai_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Back/s_Back_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Front/s_Front_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_back/s_L_b_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_front/s_L_f_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_side
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_side/s_L_s_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_back/s_R_b_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_front/s_R_f_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_side
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_side/s_R_s_01
+        weight: 1
+      - path: Finger_Nomal
+        weight: 0
+      - path: Finger_Pa
+        weight: 0
+      - path: Finger_Shot
+        weight: 0
+      - path: Hair
+        weight: 0
+      - path: Head
+        weight: 0
+      - path: Skirt
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 404_CH_Bang
+      takeName: 404_CH_Bang
+      firstFrame: 0
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 0
+      - path: Cap
+        weight: 0
+      - path: Chr_Reference
+        weight: 1
+      - path: Chr_Reference/Chr_Hips
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg/Chr_LeftFoot
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg/Chr_LeftFoot/Chr_LeftToeBase
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg/Chr_RightFoot
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg/Chr_RightFoot/Chr_RightToeBase
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm/Chr_LeftForeArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm/Chr_LeftForeArm/Chr_LeftHand
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H01_Front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H02_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H02_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H03_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H03_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H04_Back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm/Chr_RightForeArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm/Chr_RightForeArm/Chr_RightHand
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Pai_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Pai_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Back/s_Back_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Front/s_Front_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_back/s_L_b_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_front/s_L_f_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_side
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_side/s_L_s_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_back/s_R_b_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_front/s_R_f_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_side
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_side/s_R_s_01
+        weight: 1
+      - path: Finger_Nomal
+        weight: 0
+      - path: Finger_Pa
+        weight: 0
+      - path: Finger_Shot
+        weight: 0
+      - path: Hair
+        weight: 0
+      - path: Head
+        weight: 0
+      - path: Skirt
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 405_CH_Deliver
+      takeName: 405_CH_Deliver
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 0
+      - path: Cap
+        weight: 0
+      - path: Chr_Reference
+        weight: 1
+      - path: Chr_Reference/Chr_Hips
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg/Chr_LeftFoot
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_LeftUpLeg/Chr_LeftLeg/Chr_LeftFoot/Chr_LeftToeBase
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg/Chr_RightFoot
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_RightUpLeg/Chr_RightLeg/Chr_RightFoot/Chr_RightToeBase
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm/Chr_LeftForeArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_LeftShoulder/Chr_LeftArm/Chr_LeftForeArm/Chr_LeftHand
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H01_Front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H02_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H02_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H03_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H03_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_Neck/Chr_Head/H04_Back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm/Chr_RightForeArm
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Chr_RightShoulder/Chr_RightArm/Chr_RightForeArm/Chr_RightHand
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Pai_L
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/Chr_Spine/Chr_Spine1/Pai_R
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Back/s_Back_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_Front/s_Front_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_back/s_L_b_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_front/s_L_f_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_side
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_L_side/s_L_s_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_back
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_back/s_R_b_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_front
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_front/s_R_f_01
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_side
+        weight: 1
+      - path: Chr_Reference/Chr_Hips/skirt_R_side/s_R_s_01
+        weight: 1
+      - path: Finger_Nomal
+        weight: 0
+      - path: Finger_Pa
+        weight: 0
+      - path: Finger_Shot
+        weight: 0
+      - path: Hair
+        weight: 0
+      - path: Head
+        weight: 0
+      - path: Skirt
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Chr_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chr_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: H02_L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: H02_R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: H01_Front
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: xmas_01x(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cap
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Reference
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Hips
+      parentName: 
+      position: {x: -0, y: 0.8264103, z: 0.018781986}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skirt_Front
+      parentName: 
+      position: {x: -1.1641597e-16, y: 0.03926198, z: 0.12635253}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: s_Front_01
+      parentName: 
+      position: {x: -7.123884e-18, y: -0.1264056, z: 0.032668963}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skirt_Back
+      parentName: 
+      position: {x: 5.703661e-17, y: 0.049889043, z: -0.12173024}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: s_Back_01
+      parentName: 
+      position: {x: 1.0282376e-17, y: -0.11279886, z: -0.06228299}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skirt_L_front
+      parentName: 
+      position: {x: -0.0908689, y: 0.03197576, z: 0.11360932}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: s_L_f_01
+      parentName: 
+      position: {x: -0.030486254, y: -0.09593017, z: 0.022405863}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skirt_L_side
+      parentName: 
+      position: {x: -0.15380274, y: 0.07348307, z: 0.008627397}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: s_L_s_01
+      parentName: 
+      position: {x: -0.05539409, y: -0.10319424, z: 0.0025429004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skirt_L_back
+      parentName: 
+      position: {x: -0.11572145, y: 0.04157525, z: -0.108672425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: s_L_b_01
+      parentName: 
+      position: {x: -0.041391052, y: -0.079443544, z: -0.035422284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skirt_R_front
+      parentName: 
+      position: {x: 0.0908689, y: 0.031975705, z: 0.11360901}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: s_R_f_01
+      parentName: 
+      position: {x: 0.0304861, y: -0.09593, z: 0.022406}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skirt_R_side
+      parentName: 
+      position: {x: 0.15380299, y: 0.0734827, z: 0.008627412}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: s_R_s_01
+      parentName: 
+      position: {x: 0.055394, y: -0.103194, z: 0.0025429002}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skirt_R_back
+      parentName: 
+      position: {x: 0.115720995, y: 0.041575707, z: -0.10867239}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: s_R_b_01
+      parentName: 
+      position: {x: 0.041392002, y: -0.079444, z: -0.035422597}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Spine
+      parentName: 
+      position: {x: -3.5527136e-17, y: 0.13235503, z: 0.017364582}
+      rotation: {x: -1.7082767e-33, y: -2.4651903e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Spine1
+      parentName: 
+      position: {x: -8.881784e-18, y: 0.15988311, z: -0.013708882}
+      rotation: {x: -1.2201794e-30, y: 0, z: -5.916457e-31, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Neck
+      parentName: 
+      position: {x: 4.17997e-16, y: 0.15988304, z: -0.034729164}
+      rotation: {x: 2.6054949e-30, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Head
+      parentName: 
+      position: {x: 5.1534654e-16, y: 0.10802703, z: 0.024675984}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: H01_Front
+      parentName: 
+      position: {x: -8.891543e-16, y: 0.1098998, z: 0.04634617}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: H04_Back
+      parentName: 
+      position: {x: -8.7578495e-16, y: 0.008379712, z: -0.093014285}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: H02_L
+      parentName: 
+      position: {x: -0.08793476, y: 0.065191776, z: 0.06930589}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: H03_L
+      parentName: 
+      position: {x: -0.10338834, y: 0.040167414, z: -0.0030618529}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: H02_R
+      parentName: 
+      position: {x: 0.0879348, y: 0.0651915, z: 0.06930589}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: H03_R
+      parentName: 
+      position: {x: 0.103388004, y: 0.040171497, z: -0.00306185}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pai_R
+      parentName: 
+      position: {x: 0.067361, y: 0.04522157, z: 0.10569131}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pai_L
+      parentName: 
+      position: {x: -0.06736102, y: 0.04521832, z: 0.1056909}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_LeftShoulder
+      parentName: 
+      position: {x: -0.058704156, y: 0.13287789, z: -0.031013591}
+      rotation: {x: -1.926024e-33, y: 3.0814885e-32, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_LeftArm
+      parentName: 
+      position: {x: -0.06627115, y: -0.0038244629, z: 0}
+      rotation: {x: 3.3182007e-16, y: 7.587933e-17, z: -1.2316537e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_LeftForeArm
+      parentName: 
+      position: {x: -0.25051546, y: -0.00477417, z: -0.0046990286}
+      rotation: {x: -2.4467733e-16, y: -2.571562e-16, z: 1.3072598e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_LeftHand
+      parentName: 
+      position: {x: -0.18972133, y: 0.0013323975, z: 0.016328141}
+      rotation: {x: 6.5025025e-17, y: -8.673236e-17, z: 3.9132922e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_RightShoulder
+      parentName: 
+      position: {x: 0.058704156, y: 0.13287789, z: -0.031013591}
+      rotation: {x: -2.118617e-33, y: -3.0814885e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_RightArm
+      parentName: 
+      position: {x: 0.06627115, y: -0.0038244629, z: 0}
+      rotation: {x: -3.0731053e-11, y: -0.0000000039335792, z: 4.7011006e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_RightForeArm
+      parentName: 
+      position: {x: 0.25051546, y: -0.00477417, z: -0.0046990295}
+      rotation: {x: 5.98349e-11, y: -0.0000000035170014, z: -1.8198828e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_RightHand
+      parentName: 
+      position: {x: 0.18972133, y: 0.0013323975, z: 0.016328141}
+      rotation: {x: -2.910384e-11, y: 0.000000007450581, z: -1.1171316e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_RightUpLeg
+      parentName: 
+      position: {x: 0.07704578, y: -0.013692245, z: 0}
+      rotation: {x: -0.0000030032866, y: 0.00000008374873, z: 0.000000016042215, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_RightLeg
+      parentName: 
+      position: {x: 0.0022344147, y: -0.35090414, z: -0.0021957024}
+      rotation: {x: 0.0000057653097, y: -0.0000002445832, z: -0.000000028783827, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_RightFoot
+      parentName: 
+      position: {x: -0.022745226, y: -0.37326598, z: -0.051453605}
+      rotation: {x: -0.0000021771177, y: 0.00000011804096, z: 0.000000007786059, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_RightToeBase
+      parentName: 
+      position: {x: 0.000000071373464, y: -0.047962245, z: 0.10409648}
+      rotation: {x: 2.2737368e-13, y: -1.7337716e-21, z: -4.884991e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_LeftUpLeg
+      parentName: 
+      position: {x: -0.07704578, y: -0.013692245, z: 0}
+      rotation: {x: -0.0000000036589047, y: 4.448372e-10, z: -0.000000004556181, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_LeftLeg
+      parentName: 
+      position: {x: -0.0022344224, y: -0.35090414, z: -0.0021957029}
+      rotation: {x: 0.000000011403367, y: -0.000000046742645, z: -0.0000000096162465,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_LeftFoot
+      parentName: 
+      position: {x: 0.022745222, y: -0.37326607, z: -0.051453605}
+      rotation: {x: -0.000000007744462, y: 0.00000004629781, z: 0.000000014172428,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_LeftToeBase
+      parentName: 
+      position: {x: -0.00000007152557, y: -0.047962245, z: 0.10409649}
+      rotation: {x: -6.987723e-14, y: 7.132197e-15, z: 1.0403216e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Finger_Nomal
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Finger_Pa
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Finger_Shot
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hair
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skirt
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
