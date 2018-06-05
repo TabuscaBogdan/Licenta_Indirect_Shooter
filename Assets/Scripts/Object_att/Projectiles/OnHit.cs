@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.Networking;
 
-public class OnHit : MonoBehaviour {
+public class OnHit : NetworkBehaviour
+{
 
     public AudioSource[] sounds;
     public int team;
@@ -14,6 +16,10 @@ public class OnHit : MonoBehaviour {
     protected int damage;
     protected Status player_stats;
     public Vector3 target_position;
+
+    public float lifetime;
+    protected float lifeEnd;
+
     // Use this for initialization
 
     public void SetGoal(Vector3 target)//for specific targets
@@ -24,6 +30,7 @@ public class OnHit : MonoBehaviour {
     void Start () {
         RdBody = GetComponent<Rigidbody>();
         sounds = gameObject.GetComponents<AudioSource>();
+        lifeEnd = Time.time + lifetime;
 	}
 	
 
@@ -44,9 +51,10 @@ public class OnHit : MonoBehaviour {
         try
         {
             player_stats = collision.gameObject.GetComponent<Status>();
-            if (player_stats.team != team)
+            if (player_stats.team != team || team==0)
             {
-                player_stats.health -= damage;
+                player_stats.TakeDamage(damage);
+                //player_stats.health -= damage; //depricated
             }
             
         }
@@ -60,4 +68,12 @@ public class OnHit : MonoBehaviour {
         }
 
     }
+    protected void Expire()
+    {
+        if(Time.time>lifeEnd)
+        {
+            Destroy(gameObject);
+        }
+    }
+
 }

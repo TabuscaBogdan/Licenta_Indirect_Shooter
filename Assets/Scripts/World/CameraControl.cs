@@ -6,7 +6,9 @@ public class CameraControl : MonoBehaviour {
     private Vector3 offset;
     private Vector3 aux=new Vector3();
     public GameObject player;
-    public float camera_rotation_speed=4.0f;
+    public float camera_rotation_speed=2.0f;
+    public bool camera_is_set = false;
+    Vector3 new_poz;
 
 
     void Start () {
@@ -19,7 +21,7 @@ public class CameraControl : MonoBehaviour {
     }
     private void LateUpdate()
     {
-        
+        /*
         if (Input.GetAxis("Mouse ScrollWheel") > 0)
         {
             if (transform.position.y > 1.0f)
@@ -34,15 +36,41 @@ public class CameraControl : MonoBehaviour {
                 transform.position = new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z - 0.5f);
 
             }
-        }
-        Quaternion cameraTurnAngle1 = Quaternion.AngleAxis(Input.GetAxis("Mouse Y") * camera_rotation_speed, Vector3.forward);
-        Quaternion cameraTurnAngle2 = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * camera_rotation_speed, Vector3.up);
+        }*/
+        float mouseY = Input.GetAxis("Mouse Y");
+        float mouseX = Input.GetAxis("Mouse X");
+
+
+        Quaternion cameraTurnAngle1 = Quaternion.AngleAxis(mouseY * camera_rotation_speed, Vector3.forward);
+        Quaternion cameraTurnAngle2 = Quaternion.AngleAxis(mouseX * camera_rotation_speed, Vector3.up);
 
         offset =cameraTurnAngle2*offset;
         offset = cameraTurnAngle1 * offset;
-        transform.position = player.transform.position + offset;
-        transform.LookAt(player.transform);
 
-        
+        try
+        { new_poz = player.transform.position + offset; }
+        catch (MissingReferenceException)
+        {
+            Debug.Log("Player is Dead");
+        }
+
+        if (new_poz.y > 1.0f)
+            transform.position = new_poz;
+        else
+        {
+            new_poz.y = 1.0f;
+            transform.position = new_poz;
+            offset.y = 1.0f;
+        }
+
+        //transform.position = player.transform.position + offset;
+        try
+        { transform.LookAt(player.transform); }
+        catch (MissingReferenceException)
+        {
+            Debug.Log("Player is Dead");
+        }
+
+
     }
 }

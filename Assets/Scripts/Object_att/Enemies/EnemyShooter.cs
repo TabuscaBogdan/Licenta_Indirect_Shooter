@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class EnemyShooter : MonoBehaviour {
+public class EnemyShooter : NetworkBehaviour {
 
     public GameObject projectile;
     public GameObject queryChan;
@@ -40,22 +41,27 @@ public class EnemyShooter : MonoBehaviour {
                 if (shooted == false)
                 {
                     Debug.Log("Intra" + Time.time + "---" + (available - 2 * cooldown / 3));
-                    var targetDirection = AI.player.position - gameObject.transform.position;
-                    offset.x = targetDirection.x % 1;
-                    offset.y = targetDirection.y % 1;
-                    offset.z = targetDirection.z % 1;
+                    
+                    offset = transform.position;
+                    offset.y = transform.position.y+1;
+                    offset += transform.forward;
+                    
                     //--
                     //creaza proiectil
                     GameObject actuallProjectile = Instantiate(projectile) as GameObject;
 
                     //give ownership
                     onHit = projectile.GetComponent<OnHit>();
-                    onHit.SetGoal(AI.player.position);
+                    //onHit.SetGoal(AI.player.position);
                     onHit.team = player_stats.team;
                     onHit.playerName = player_stats.name;
 
                     //-----
-                    actuallProjectile.transform.position = transform.position + offset;
+                    actuallProjectile.transform.position = offset;
+                    
+
+                    actuallProjectile.transform.rotation = transform.rotation;
+
 
                     shooted = true;
                 }

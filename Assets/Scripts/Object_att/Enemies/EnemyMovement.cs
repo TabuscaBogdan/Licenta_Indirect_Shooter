@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Networking;
 
-public class EnemyMovement : MonoBehaviour {
+public class EnemyMovement : NetworkBehaviour
+{
 
     public GameObject queryChan;
 
@@ -148,6 +150,8 @@ public class EnemyMovement : MonoBehaviour {
                     queryChan.GetComponent<QuerySDSoundController>().PlaySoundByNumber(0);//change this
                     queryChan.GetComponent<QuerySDMecanimController>().ChangeAnimation((QuerySDMecanimController.QueryChanSDAnimationType)3);
                     queryChan.GetComponent<QuerySDEmotionalController>().ChangeEmotion((QuerySDEmotionalController.QueryChanSDEmotionalType)1);
+
+
                     nav.SetDestination(player.position);
                 }
             }
@@ -210,7 +214,17 @@ public class EnemyMovement : MonoBehaviour {
         {
             if (inPursuit == true)
             {
-                nav.SetDestination(player.position);
+                try
+                { nav.SetDestination(player.position); }
+                catch (MissingReferenceException)
+                {
+                    Debug.Log("Disengage");
+                    inPursuit = false;
+                }
+                catch
+                {
+                    Debug.Log("Unknown error in enemy movement script occured at line 210+");
+                }
             }
             else
             {

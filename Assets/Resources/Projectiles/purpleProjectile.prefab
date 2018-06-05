@@ -23,7 +23,9 @@ GameObject:
   - component: {fileID: 65237241095549104}
   - component: {fileID: 23522190296024496}
   - component: {fileID: 54151226324141632}
-  - component: {fileID: 114060851190642392}
+  - component: {fileID: 114103739561180070}
+  - component: {fileID: 114954195581999270}
+  - component: {fileID: 114763024755224948}
   m_Layer: 0
   m_Name: purpleProjectile
   m_TagString: bullet
@@ -110,7 +112,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114060851190642392
+--- !u!114 &114103739561180070
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -124,6 +126,60 @@ MonoBehaviour:
   sounds: []
   team: 0
   playerName: Unknown
-  afterSound: {fileID: 1089337265258936, guid: 2b953173f22c7d348802087a3bf3fdbb, type: 2}
-  target_position: {x: 11.059499, y: -0.39499998, z: -15.207825}
-  speed: 0.8
+  afterSound: {fileID: 1475816384891960, guid: 4bb3767d187133c499528fe6b8643e4e, type: 2}
+  target_position: {x: -0.96077526, y: 0, z: -0.2773286}
+  lifetime: 20
+  speed: 10
+--- !u!114 &114763024755224948
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241866620665300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 3
+  m_SendInterval: 0
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
+--- !u!114 &114954195581999270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241866620665300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 46
+    i1: 198
+    i2: 79
+    i3: 251
+    i4: 58
+    i5: 171
+    i6: 132
+    i7: 36
+    i8: 40
+    i9: 33
+    i10: 61
+    i11: 200
+    i12: 35
+    i13: 248
+    i14: 107
+    i15: 25
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

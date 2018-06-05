@@ -6,7 +6,6 @@ public class Red_behavior : OnHit {
     // Update is called once per frame
     private Vector3 position;
     private Vector3 start_point;
-    private int lifetime;
     private float rads;
     public float x,z;
     private float pas=0.00001f;
@@ -31,22 +30,21 @@ public class Red_behavior : OnHit {
     private void Start()
     {
         start_point = transform.position;
+        lifeEnd = Time.time + lifetime;
+        
     }
     Red_behavior()
     {
         rads = 0.0f;
-        lifetime = 3000;
+        lifetime = 10;
         this.damage = 10;
         x = 0.1f;
         z = 0.1f;
+        
     }
 	void Update () {
-        spiral(ref raza, ref pas, ref position);
-        transform.position = position;
-        lifetime--;
-        if(lifetime<0)
-        {
-            Destroy(gameObject);
-        }
-	}
+        Expire();
+        transform.position= Vector3.MoveTowards(transform.position, transform.position-transform.forward, maxDistanceDelta: -0.2f);
+
+    }
 }

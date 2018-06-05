@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Networking;
 
-public class QueryLocomotionController : MonoBehaviour {
+public class QueryLocomotionController : NetworkBehaviour {
 
 	public float moveSpeed			= 1.3f;
 	public float dashSpeed			= 4f;
@@ -11,9 +12,10 @@ public class QueryLocomotionController : MonoBehaviour {
 	public float jumpInterval		= 1.3f;
 	public float gravity			= 0.4f;
 
-    private bool IsFalling;
-    private float standardY;
-    int time_falling=0;
+    public bool IsFalling;
+    public float standardY;
+    public int time_falling=0;
+
 
     QuerySoundController.QueryChanSoundType[] jumpSounds = {
 		QuerySoundController.QueryChanSoundType.ONE_TWO,
@@ -40,12 +42,17 @@ public class QueryLocomotionController : MonoBehaviour {
 
 
 
-	//========================================================
+    //========================================================
 
-	void Start()
+    public override void OnStartLocalPlayer()
+    {
+        Camera.main.GetComponent<CameraControl>().player = gameObject;
+    }
+
+    void Start()
 	{
 		controller = GetComponent<CharacterController>();
-		animator = GetComponentInChildren<Animator>();
+		animator = GetComponent<Animator>();
 		querySound = GetComponent<QuerySoundController>();
 		queryMechanim = GetComponent<QueryMechanimController>();
 
@@ -54,6 +61,9 @@ public class QueryLocomotionController : MonoBehaviour {
         IsFalling = false;
         standardY = gameObject.transform.position.y;
         animator.SetBool("Landed", false);
+
+        //set camera to player
+
     }
 
 
@@ -61,7 +71,11 @@ public class QueryLocomotionController : MonoBehaviour {
 
 	void Update()
 	{
-		updateMove();
+        if (!isLocalPlayer)
+        {
+            return;
+        }
+        updateMove();
 	}
 
 
