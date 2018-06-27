@@ -8,6 +8,7 @@ public class EnemyMovement : NetworkBehaviour
 {
 
     public GameObject queryChan;
+    private bool stop_working = false;
 
     public Transform player;               // Reference to the player's position.
     int playerHealth;      // Reference to the player's health.
@@ -35,6 +36,15 @@ public class EnemyMovement : NetworkBehaviour
     private float wanderStop=0.0f;
 
     Vector3 newDestination;//ultima pozitie in care caracterul era
+
+
+    public void Dissapear()//pentru cand botul e pe moarte
+    {
+        nav.SetDestination(gameObject.transform.position);
+        inPursuit = false;
+        dodging = false;
+        stop_working = true;
+    }
 
     public bool IsAgentOnNavMesh(GameObject agentObject)
     {
@@ -193,6 +203,15 @@ public class EnemyMovement : NetworkBehaviour
 
     void Update()
     {
+        /*
+        if(isClient)
+        {
+            return;
+        }*/
+        if(stop_working==true)
+        {
+            return;
+        }
         if (dodging == true)
         {
             
@@ -228,7 +247,9 @@ public class EnemyMovement : NetworkBehaviour
             }
             else
             {
-                WanderAround();
+                //server controled movement
+                if (isServer)
+                { WanderAround(); }
                 
             }
 

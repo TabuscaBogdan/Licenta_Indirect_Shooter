@@ -16,8 +16,8 @@ public class EnemyProjectile1_behavior : OnHit {
     }
     
     void Start () {
-        
-        lifeEnd = Time.time + lifetime;
+        //lifeEnd = Time.time + lifetime;
+        BaseStart();
     }
 	
 	// Update is called once per frame

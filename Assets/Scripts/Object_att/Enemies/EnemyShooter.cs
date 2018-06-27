@@ -7,7 +7,7 @@ public class EnemyShooter : NetworkBehaviour {
 
     public GameObject projectile;
     public GameObject queryChan;
-    private Status player_stats;
+    private EnemyStatus enemy_stats;
     private OnHit onHit;
     public Vector3 offset;
     //------
@@ -19,7 +19,7 @@ public class EnemyShooter : NetworkBehaviour {
     bool shooted = false;
     // Use this for initialization
     void Start () {
-        player_stats = gameObject.GetComponent<Status>();//aici se refera la inamic
+        enemy_stats = gameObject.GetComponent<EnemyStatus>();//aici se refera la inamic
     }
 	
 	// Update is called once per frame
@@ -40,6 +40,8 @@ public class EnemyShooter : NetworkBehaviour {
             {
                 if (shooted == false)
                 {
+                    if (isServer)
+                    {
                     Debug.Log("Intra" + Time.time + "---" + (available - 2 * cooldown / 3));
                     
                     offset = transform.position;
@@ -53,14 +55,16 @@ public class EnemyShooter : NetworkBehaviour {
                     //give ownership
                     onHit = projectile.GetComponent<OnHit>();
                     //onHit.SetGoal(AI.player.position);
-                    onHit.team = player_stats.team;
-                    onHit.playerName = player_stats.name;
+                    onHit.team = enemy_stats.team;
+                    onHit.playerName = "AI";
 
                     //-----
                     actuallProjectile.transform.position = offset;
-                    
 
-                    actuallProjectile.transform.rotation = transform.rotation;
+                    
+                        actuallProjectile.transform.rotation = transform.rotation;
+                        NetworkServer.Spawn(actuallProjectile);
+                    }
 
 
                     shooted = true;

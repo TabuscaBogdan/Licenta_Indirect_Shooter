@@ -914,7 +914,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1815699834939120}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.080083, y: 2.8264444e-17, z: -6.3645864}
+  m_LocalPosition: {x: -7.0295053, y: 2.9770025e-17, z: -6.703614}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4999346392132942}
@@ -1739,9 +1739,9 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 1
-  projSpeed: 3
+  projSpeed: 4
   cooldown: 0
-  cooldown_timer: 1.5
+  cooldown_timer: 0.5
   player: {fileID: 1815699834939120}
 --- !u!114 &114084349378111056
 MonoBehaviour:
@@ -1796,7 +1796,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jim
+  m_Text: Player
 --- !u!114 &114182022867102064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1884,7 +1884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Animator: {fileID: 95677303489066288}
-  m_ParameterSendBits: 15
+  m_ParameterSendBits: 63
   param0: 
   param1: 
   param2: 
@@ -1995,9 +1995,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e92546c62f8990429f5fe5f6c471d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lives: 5
+  takedowns: 0
+  scm: {fileID: 0}
   health: 100
   name: Crazy-chan
-  team: 2
+  team: -1
+  teamColor: {r: 0, g: 0, b: 0, a: 0}
   healthbar_len: {fileID: 224147908069551710}
 --- !u!114 &114835789389986642
 MonoBehaviour:

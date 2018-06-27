@@ -321,13 +321,13 @@ GameObject:
   - component: {fileID: 54439301195516812}
   - component: {fileID: 136576078760155896}
   - component: {fileID: 135455457146318190}
-  - component: {fileID: 114323687384600694}
   - component: {fileID: 114994144314517686}
   - component: {fileID: 195131386693425400}
   - component: {fileID: 114400431377537190}
   - component: {fileID: 114484554187902254}
   - component: {fileID: 114777289723561618}
   - component: {fileID: 114821363312477926}
+  - component: {fileID: 114582567575815620}
   m_Layer: 0
   m_Name: Enemy-Chan (1)
   m_TagString: Enemy
@@ -513,7 +513,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1517639112723348}
   m_LocalRotation: {x: -0, y: 0.80449283, z: -0, w: 0.5939624}
-  m_LocalPosition: {x: 16.100449, y: -4.056295e-18, z: 0.9133965}
+  m_LocalPosition: {x: 7.7, y: 8.675473e-18, z: 0.48}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4549163788480720}
@@ -1070,21 +1070,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114323687384600694
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1517639112723348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e92546c62f8990429f5fe5f6c471d2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  name: Unknown
-  team: 0
-  healthbar_len: {fileID: 224515570553074744}
 --- !u!114 &114400431377537190
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1152,6 +1137,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundData:
   - {fileID: 8300000, guid: 74985816ad9ed4118a0bb19aaa3d6486, type: 3}
+--- !u!114 &114582567575815620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1517639112723348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 996948f509d070946862251e7e81b326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  team: 0
+  healthbar_len: {fileID: 224515570553074744}
+  queryChan: {fileID: 1517639112723348}
+  health: 100
 --- !u!114 &114735121353946944
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1202,8 +1202,8 @@ MonoBehaviour:
     i13: 149
     i14: 22
     i15: 180
-  m_ServerOnly: 1
-  m_LocalPlayerAuthority: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!114 &114788951206244672
 MonoBehaviour:
   m_ObjectHideFlags: 1
