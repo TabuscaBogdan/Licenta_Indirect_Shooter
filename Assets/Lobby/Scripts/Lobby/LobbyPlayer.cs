@@ -256,7 +256,7 @@ namespace Prototype.NetworkLobby
             if (idx < 0) idx = 0;
 
             idx = (idx + 1) % Colors.Length;
-
+            /*
             bool alreadyInUse = false;
 
             do
@@ -272,7 +272,7 @@ namespace Prototype.NetworkLobby
                 }
             }
             while (alreadyInUse);
-
+            */
             if (inUseIdx >= 0)
             {//if we already add an entry in the colorTabs, we change it
                 _colorInUse[inUseIdx] = idx;

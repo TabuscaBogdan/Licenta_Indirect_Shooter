@@ -8,7 +8,8 @@ public class EnemyMovement : NetworkBehaviour
 {
 
     public GameObject queryChan;
-    private bool stop_working = false;
+    [SyncVar]
+    public bool stop_working = false;
 
     public Transform player;               // Reference to the player's position.
     int playerHealth;      // Reference to the player's health.
@@ -27,7 +28,7 @@ public class EnemyMovement : NetworkBehaviour
 
 
 
-    public float DodgeRate = 0.3f;
+    public float DodgeRate = 1.3f;
     public float NextDodge = 1.0f;
 
     
@@ -94,8 +95,8 @@ public class EnemyMovement : NetworkBehaviour
 
     private Vector3 SimpleDoddge(Vector3 bulet,Vector3 you,Vector3 hunted)
     {
-        Vector3 dir1 =new Vector3(bulet.x, you.y, you.z);
-        Vector3 dir2 = new Vector3(you.x, you.y, bulet.z);
+        Vector3 dir1 =new Vector3(bulet.x+1, you.y, you.z+1);
+        Vector3 dir2 = new Vector3(you.x-1, you.y, bulet.z+1);
 
         queryChan.GetComponent<QuerySDMecanimController>().ChangeAnimation((QuerySDMecanimController.QueryChanSDAnimationType)10);
         if (Vector3.Distance(hunted, dir1) > Vector3.Distance(hunted, dir2))
@@ -107,8 +108,8 @@ public class EnemyMovement : NetworkBehaviour
     }
     private Vector3 SimpleDoddge(Vector3 bulet, Vector3 you)
     {
-        Vector3 dir1 = new Vector3(bulet.x, you.y, you.z);
-        Vector3 dir2 = new Vector3(you.x, you.y, bulet.z);
+        Vector3 dir1 = new Vector3(bulet.x+1, you.y, you.z+1);
+        Vector3 dir2 = new Vector3(you.x-1, you.y, bulet.z+1);
 
         queryChan.GetComponent<QuerySDMecanimController>().ChangeAnimation((QuerySDMecanimController.QueryChanSDAnimationType)10);
         float rnd = Random.value;
